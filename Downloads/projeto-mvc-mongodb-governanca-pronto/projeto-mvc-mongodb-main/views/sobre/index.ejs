@@ -1,0 +1,46 @@
+<%- include('../partials/header', { page: 'sobre' }) %>
+
+<main>
+  <section class="page-hero">
+    <div class="page-tag">O projeto</div>
+    <h1 class="page-heading">Sobre o<br><em>AcademiX</em></h1>
+  </section>
+
+  <section class="about-section">
+    <div class="about-grid">
+      <div class="about-text">
+        <p>O <strong>AcademiX</strong> é uma aplicação web construída sobre o padrão arquitetural <strong>MVC</strong>, garantindo separação clara de responsabilidades entre as camadas da aplicação.</p>
+        <p>O back-end é desenvolvido com <strong>Node.js</strong> e <strong>Express</strong>, utilizando <strong>Mongoose</strong> como ODM para comunicação com o <strong>MongoDB Atlas</strong>. As views são renderizadas no servidor com <strong>EJS</strong> e partials reutilizáveis.</p>
+      </div>
+      <div class="about-layers">
+        <div class="layer-item">
+          <span class="layer-tag">Model</span>
+          <span class="layer-desc">Schema Mongoose · Validação de dados · Queries</span>
+        </div>
+        <div class="layer-item">
+          <span class="layer-tag">View</span>
+          <span class="layer-desc">EJS · Partials · HTML renderizado no servidor</span>
+        </div>
+        <div class="layer-item">
+          <span class="layer-tag">Controller</span>
+          <span class="layer-desc">Coordena requisição → Model → View</span>
+        </div>
+        <div class="layer-item">
+          <span class="layer-tag">Middleware</span>
+          <span class="layer-desc">Log de requisições · Validação de campos</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="tech-strip">
+      <span>Node.js</span>
+      <span>Express</span>
+      <span>MongoDB</span>
+      <span>Mongoose</span>
+      <span>EJS</span>
+      <span>dotenv</span>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>
