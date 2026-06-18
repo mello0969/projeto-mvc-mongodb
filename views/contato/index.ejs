@@ -1,0 +1,40 @@
+<%- include('../partials/header', { page: 'contato' }) %>
+
+<main>
+  <section class="page-hero">
+    <div class="page-tag">Fale conosco</div>
+    <h1 class="page-heading">Contato</h1>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Tem alguma dúvida?</h3>
+        <p>Preencha o formulário ao lado e entraremos em contato em breve.</p>
+        <div class="contact-items">
+          <div class="contact-item"><span class="ci-label">Projeto</span><span>AcademiX — Sistema de Alunos</span></div>
+          <div class="contact-item"><span class="ci-label">Stack</span><span>Node.js · Express · MongoDB</span></div>
+          <div class="contact-item"><span class="ci-label">Padrão</span><span>MVC (Model-View-Controller)</span></div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="submitContato(event)">
+        <div class="field-group">
+          <label class="field-label">Nome</label>
+          <input class="field-input" type="text" placeholder="Seu nome completo" required />
+        </div>
+        <div class="field-group">
+          <label class="field-label">E-mail</label>
+          <input class="field-input" type="email" placeholder="seu@email.com" required />
+        </div>
+        <div class="field-group">
+          <label class="field-label">Mensagem</label>
+          <textarea class="field-input field-textarea" placeholder="Escreva sua mensagem..." required></textarea>
+        </div>
+        <button class="btn-primary" type="submit">Enviar mensagem →</button>
+        <p class="form-feedback" id="formFeedback"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer') %>
