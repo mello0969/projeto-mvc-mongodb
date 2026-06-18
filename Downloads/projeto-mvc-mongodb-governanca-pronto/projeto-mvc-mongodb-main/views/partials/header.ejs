@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AcademiX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-wrap">
+    <a href="/" class="logo">
+      <span class="logo-box">A</span>
+      <span>AcademiX</span>
+    </a>
+    <nav class="nav">
+      <a href="/"        class="nav-link <%= page==='home'    ? 'is-active' : '' %>">Home</a>
+      <a href="/sobre"   class="nav-link <%= page==='sobre'   ? 'is-active' : '' %>">Sobre</a>
+      <a href="/contato" class="nav-link <%= page==='contato' ? 'is-active' : '' %>">Contato</a>
+      <a href="/alunos"  class="nav-cta  <%= page==='alunos'  ? 'is-active' : '' %>">Alunos</a>
+    </nav>
+    <button class="nav-burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="/"        class="nav-link">Home</a>
+    <a href="/sobre"   class="nav-link">Sobre</a>
+    <a href="/contato" class="nav-link">Contato</a>
+    <a href="/alunos"  class="nav-link">Alunos</a>
+  </div>
+</header>
