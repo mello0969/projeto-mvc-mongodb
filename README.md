@@ -1,4 +1,4 @@
-# 🎓 Sistema de Cadastro de Alunos
+#  Sistema de Cadastro de Alunos
 
 ![Node.js](https://img.shields.io/badge/Node.js-v18+-green)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-brightgreen)
@@ -10,7 +10,7 @@ O projeto permite cadastrar, listar, editar e excluir registros de alunos utiliz
 
 ---
 
-## 🚀 Stack Tecnológica
+##  Stack Tecnológica
 
 - Node.js
 - Express
@@ -21,7 +21,7 @@ O projeto permite cadastrar, listar, editar e excluir registros de alunos utiliz
 
 ---
 
-## ⚙️ Guia de Instalação e Execução
+##  Guia de Instalação e Execução
 
 ### 1. Clone o repositório
 
@@ -49,7 +49,7 @@ npm run dev
 
 ---
 
-## 🔐 Variáveis de Ambiente
+##  Variáveis de Ambiente
 
 Crie um arquivo chamado `.env` na raiz do projeto com o seguinte conteúdo:
 
@@ -61,7 +61,7 @@ NODE_ENV=development
 
 ---
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```text
 projeto-mvc-mongodb
@@ -79,12 +79,12 @@ projeto-mvc-mongodb
 
 ---
 
-## 📚 Documentação
+##  Documentação
 
 Este projeto utiliza **JSDoc** para documentar Controllers e Models, permitindo que o VS Code forneça IntelliSense com informações sobre parâmetros, retornos e responsabilidades dos métodos.
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
-Desenvolvido por **Murilo Mello** como atividade prática da disciplina de Desenvolvimento Web.
+Desenvolvido por **Murilo Mello** como atividade prática da disciplina de Criação de Sites
